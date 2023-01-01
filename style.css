@@ -6,9 +6,9 @@
 
 /* Fundo */
 body {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    background: linear-gradient(45deg,black,#110121);
+    background: linear-gradient(45deg,#043b31,#219983,#26c0a4,#043b31);
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }
@@ -21,6 +21,8 @@ body * {
 #container {
     width: 360px;
     margin: 56px auto 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
 }
 
 #profile {
@@ -58,7 +60,7 @@ ul li a {
 
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgb(255, 255, 255, 0.5);
-    border-radius: 8px;
+    border-radius: 25px;
 
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -112,7 +114,7 @@ footer {
     50%{
         background-position: 100% 50%;
     }
-    0%{
+    100%{
         background-position: 0 50%;
     }
 }
